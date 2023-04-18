@@ -1,0 +1,12 @@
+/* Global Style WebSite */
+
+html {
+    height: 100px;
+}
+
+body {
+    background-color: #1c0c3f;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+}
