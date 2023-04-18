@@ -1,0 +1,28 @@
+/* Footer Style WebSite */
+
+footer {
+    text-align: center;
+    border-top: 1px solid #f0f5ff;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child {
+    color: #5e49ff;
+    text-decoration: none;
+}
+
+footer section span a {
+    color: #5e49ff;
+    text-decoration: none;
+}
+footer section span a:hover {
+    color: #25cbd3;
+    text-decoration: none;
+}
+
+footer section span:last-child {
+    color: #3bd42d;
+}
