@@ -23,7 +23,8 @@ main section abbr:hover {
 
 @media screen and (min-width: 992px) {
     .cover-container {
-        width: 40%;        
+        width: 40%;
+        display: inline-block;        
     }
 
     .cover-container,
