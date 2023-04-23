@@ -20,11 +20,8 @@
     color: #3bd42d;
 }
 
-.text-center {
-    text-align: center;
-}
 @media screen and (min-width: 992px) {  
-    .content-container > div img{ 
+    .content-container > div img.width-50pct-desktop{ 
         width: 250px;
     }
     .content-container > div{

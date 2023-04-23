@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/devaria.css">
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="stylesheet" href="public/css/fale-conosco.css">
     <title>Fale Conosco</title>
 </head>
 <body>
@@ -27,28 +29,28 @@
         </nav>
     </header>
     <main>
-        <h1>Fale com a gente ou com o seu terapeuta</h1>
-        <h2>Para mandar uma mensagem para a Devaria, preencha o formulário abaixo e clique em “enviar”. 😊</h2>
+        <h1 class="title text-center">Fale com a gente ou com o seu terapeuta</h1>
+        <h2 class="sub-title text-center">Para mandar uma mensagem para a Devaria, preencha o formulário abaixo e clique em “enviar”. 😊</h2>
         <section>
-            <form action="index.html">
-                <p>
+            <form action="index.html" class="contact-form margin-hotizontal-20px">
+                <div>
                     <label for="nome">Nome:</label>
                     <input type="text" name="nome"/>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="email">E-mail:</label>
                     <input type="text" name="email"/>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="comentario">Comentário</label>
                     <textarea name="comentario" cols="50" rows="4"></textarea>
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="Sexo">Sexo:</label>
-                    <input type="radio" name="Sexo"/><label">Feminino</label>
-                    <input type="radio" name="Sexo"/><label">Masculino</label>
-                </p>
-                <p>
+                    <input type="radio" name="Sexo"><span>Feminino</span>
+                    <input type="radio" name="Sexo"><span>Masculino</span>
+                </div>
+                <div>
                     <label">Onde você conheceu a Devaria?</label>
                     <select name="Conheceu">
                         <option value="YouTube" selected>Youtube</option>
@@ -56,15 +58,15 @@
                         <option value="Google">Google</option>
                         <option value="Outros">Outros</option>
                     </select>
-                </p>
-                <p>
+                </div>
+                <div>
                     <input type="checkbox" name="Aceite" value="Aceite" />
-                    <label for="Aceite">Aceito receber novidades da Devaria</label>
-                </p>
-                <p>
+                    <span>Aceito receber novidades da Devaria</span>
+                </div>
+                <div>
                     <input type="submit" name="Enviar" value="Enviar"/>
                     <input type="reset" name="Limpar" value="Limpar"/>
-                </p>
+                </div>
             </form>
         </section>
     </main>
