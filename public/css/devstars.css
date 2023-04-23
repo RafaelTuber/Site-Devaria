@@ -1,0 +1,29 @@
+/* Style Devstars WebPage*/
+.table-info{
+    text-align: center;
+    display: inline-block;
+    border: 1px double #25cbd3;
+}
+
+.table-info td,
+.table-info th{
+    border: 1px double #25cbd3;
+    padding: 5px;
+}
+
+.iframe iframe {
+    display: block;
+    width: 95%;
+    margin: 10px auto 25px;
+}
+
+.point-info {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 auto;
+}
+.info {
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+}

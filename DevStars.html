@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/devaria.css">
     <link rel="stylesheet" href="public/css/header.css">
+    <link rel="stylesheet" href="public/css/footer.css">
+    <link rel="stylesheet" href="public/css/devstars.css">
     <title>DevStars</title>
 </head>
 <body>
@@ -27,11 +29,12 @@
         </nav>
     </header>
     <main>
-        <h1>Ranking DevStars</h1>
-        <h2>Como funciona os pontos DevStars?</h2>
-        <section>
+        <h1 class="title text-center">Ranking DevStars</h1>
+        <h2 class="sub-title text-center">Como funciona os pontos DevStars?</h2>
+        <div class="info">
+        <section class="sub-title text-center point-info">
             <h3>Pontos recebidos através de desafios</h3>
-            <table>
+            <table class="table-info">
                 <tr>
                     <th>-</th>
                     <th>No dia</th>
@@ -46,9 +49,9 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section class="sub-title text-center point-info">
             <h3>Pontuações de comentários</h3>
-            <table>
+            <table class="table-info">
                 <thead>
                     <th>-</th>
                     <th>Menos de 5</th>
@@ -65,7 +68,8 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        </div>
+        <section class="iframe">
             <iframe src="https://devaria.com.br/devstars" width="1200" height="
             400"></iframe>
         </section>
